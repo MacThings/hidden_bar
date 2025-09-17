@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -326,7 +326,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1130;
-				ORGANIZATIONNAME = "Dwarves Foundation";
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					929113F021F9D04100173149 = {
 						CreatedOnToolsVersion = 10.1;
@@ -344,7 +344,6 @@
 				};
 			};
 			buildConfigurationList = 929113EC21F9D04100173149 /* Build configuration list for PBXProject "Hidden Bar" */;
-			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -363,6 +362,7 @@
 			packageReferences = (
 				08A5F85D23AA01EE00981CA5 /* XCRemoteSwiftPackageReference "HotKey" */,
 			);
+			preferredProjectObjectVersion = 77;
 			productRefGroup = 929113F221F9D04100173149 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -667,6 +667,7 @@
 				DEVELOPMENT_TEAM = 4ATFWV7M4B;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = LauncherApplication/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -691,6 +692,7 @@
 				DEVELOPMENT_TEAM = 4ATFWV7M4B;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = LauncherApplication/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
