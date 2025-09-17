@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="19142.2" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="19142.2"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="23727"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -76,13 +76,13 @@
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" fullSizeContentView="YES"/>
                         <rect key="contentRect" x="196" y="240" width="450" height="270"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1440" height="875"/>
-                        <toolbar key="toolbar" implicitIdentifier="47B2E2C2-82B2-4C57-9EBF-6C8AE0786C9B" autosavesConfiguration="NO" allowsUserCustomization="NO" displayMode="labelOnly" sizeMode="regular" id="iQ4-lw-FIM">
+                        <toolbar key="toolbar" implicitIdentifier="47B2E2C2-82B2-4C57-9EBF-6C8AE0786C9B" autosavesConfiguration="NO" allowsUserCustomization="NO" showsBaselineSeparator="NO" displayMode="labelOnly" sizeMode="regular" id="iQ4-lw-FIM">
                             <allowedToolbarItems>
                                 <toolbarItem implicitItemIdentifier="NSToolbarShowColorsItem" id="F4y-kl-D2f"/>
                                 <toolbarItem implicitItemIdentifier="NSToolbarShowFontsItem" id="f59-7u-RLJ"/>
                                 <toolbarItem implicitItemIdentifier="0B8CB0BB-7947-4D4F-8C91-449CFFCEC98B" label="Custom View" paletteLabel="Custom View" sizingBehavior="auto" id="ML6-W4-U8X">
                                     <nil key="toolTip"/>
-                                    <textField key="view" horizontalHuggingPriority="251" verticalHuggingPriority="750" id="3wq-bO-RJi">
+                                    <textField key="view" focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" id="3wq-bO-RJi">
                                         <rect key="frame" x="10" y="14" width="56" height="16"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" lineBreakMode="clipping" title="General" id="zAf-vj-OOZ">
@@ -162,7 +162,7 @@
                                                         <stackView distribution="fill" orientation="vertical" alignment="leading" spacing="0.0" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qc9-cU-zZc">
                                                             <rect key="frame" x="0.0" y="29" width="172" height="66"/>
                                                             <subviews>
-                                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ekW-28-SJX">
+                                                                <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ekW-28-SJX">
                                                                     <rect key="frame" x="-2" y="25" width="176" height="41"/>
                                                                     <textFieldCell key="cell" lineBreakMode="clipping" title="Hidden Bar" id="2xp-Ht-xa6">
                                                                         <font key="font" metaFont="systemMedium" size="35"/>
@@ -170,7 +170,7 @@
                                                                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                                     </textFieldCell>
                                                                 </textField>
-                                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Ai3-8A-3rm">
+                                                                <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Ai3-8A-3rm">
                                                                     <rect key="frame" x="-2" y="0.0" width="163" height="25"/>
                                                                     <textFieldCell key="cell" lineBreakMode="clipping" title="Menu bar cleaner" id="X4W-sr-Z32">
                                                                         <font key="font" metaFont="system" size="21"/>
@@ -188,7 +188,7 @@
                                                                 <real value="3.4028234663852886e+38"/>
                                                             </customSpacing>
                                                         </stackView>
-                                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="J6Q-eY-HJw">
+                                                        <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="J6Q-eY-HJw">
                                                             <rect key="frame" x="-2" y="0.0" width="53" height="17"/>
                                                             <textFieldCell key="cell" lineBreakMode="clipping" title="Version" id="4Au-5A-dYq">
                                                                 <font key="font" metaFont="menu" size="14"/>
@@ -244,7 +244,7 @@
                                                         </constraints>
                                                         <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="ico_compass" id="Fni-Bp-VZz"/>
                                                     </imageView>
-                                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="jmL-Oh-IlC" customClass="HyperlinkTextField" customModule="Hidden_Bar" customModuleProvider="target">
+                                                    <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="jmL-Oh-IlC" customClass="HyperlinkTextField" customModule="Hidden_Bar" customModuleProvider="target">
                                                         <rect key="frame" x="30" y="4" width="128" height="16"/>
                                                         <textFieldCell key="cell" lineBreakMode="clipping" title="Know more about us" id="Xb1-xM-sYy">
                                                             <font key="font" metaFont="system"/>
@@ -276,7 +276,7 @@
                                                         </constraints>
                                                         <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="ico_twitter" id="tB4-GY-gGd"/>
                                                     </imageView>
-                                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="c5D-4V-z75" customClass="HyperlinkTextField" customModule="Hidden_Bar" customModuleProvider="target">
+                                                    <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="c5D-4V-z75" customClass="HyperlinkTextField" customModule="Hidden_Bar" customModuleProvider="target">
                                                         <rect key="frame" x="30" y="4" width="125" height="16"/>
                                                         <textFieldCell key="cell" lineBreakMode="clipping" title="Follow us on Twitter" id="Tba-C7-Zr8">
                                                             <font key="font" metaFont="system"/>
@@ -308,7 +308,7 @@
                                                         </constraints>
                                                         <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="ico_github" id="Abo-SQ-xfQ"/>
                                                     </imageView>
-                                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="6si-3e-Hzw" customClass="HyperlinkTextField" customModule="Hidden_Bar" customModuleProvider="target">
+                                                    <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="6si-3e-Hzw" customClass="HyperlinkTextField" customModule="Hidden_Bar" customModuleProvider="target">
                                                         <rect key="frame" x="30" y="4" width="178" height="16"/>
                                                         <textFieldCell key="cell" lineBreakMode="clipping" title="This app is fully open source" id="fqc-io-QOP">
                                                             <font key="font" metaFont="system"/>
@@ -340,7 +340,7 @@
                                                         </constraints>
                                                         <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="ico_email" id="K3d-Co-Iq1"/>
                                                     </imageView>
-                                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="KzE-2n-Rp9" customClass="HyperlinkTextField" customModule="Hidden_Bar" customModuleProvider="target">
+                                                    <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="KzE-2n-Rp9" customClass="HyperlinkTextField" customModule="Hidden_Bar" customModuleProvider="target">
                                                         <rect key="frame" x="30" y="4" width="55" height="16"/>
                                                         <textFieldCell key="cell" lineBreakMode="clipping" title="Email us" id="sRr-sO-uV0">
                                                             <font key="font" metaFont="system"/>
@@ -375,7 +375,7 @@
                                             <real value="3.4028234663852886e+38"/>
                                         </customSpacing>
                                     </stackView>
-                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Lhv-JW-S82">
+                                    <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Lhv-JW-S82">
                                         <rect key="frame" x="32" y="0.0" width="143" height="12"/>
                                         <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="MIT © Dwarves Foundation" id="b1t-QR-iSj">
                                             <font key="font" size="11" name="HelveticaNeue"/>
@@ -422,7 +422,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="668" height="266"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
-                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="RGE-Xv-zm5">
+                                        <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="RGE-Xv-zm5">
                                             <rect key="frame" x="189" y="8" width="291" height="32"/>
                                             <textFieldCell key="cell" alignment="center" id="k7C-e5-6a0">
                                                 <font key="font" metaFont="system"/>
@@ -432,7 +432,7 @@ between sections to configure Hidden Bar.</string>
                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             </textFieldCell>
                                         </textField>
-                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vlT-cT-cRT">
+                                        <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vlT-cT-cRT">
                                             <rect key="frame" x="57" y="141" width="110" height="28"/>
                                             <textFieldCell key="cell" lineBreakMode="clipping" title="Hidden" id="cXt-8R-PHo">
                                                 <font key="font" metaFont="system" size="24"/>
@@ -440,7 +440,7 @@ between sections to configure Hidden Bar.</string>
                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             </textFieldCell>
                                         </textField>
-                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U3K-oK-4ET">
+                                        <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U3K-oK-4ET">
                                             <rect key="frame" x="209" y="141" width="78" height="28"/>
                                             <textFieldCell key="cell" lineBreakMode="clipping" title="Shown" id="iyS-g5-5mk">
                                                 <font key="font" metaFont="system" size="24"/>
@@ -532,7 +532,7 @@ between sections to configure Hidden Bar.</string>
                                                     <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="ico_7" id="Ytb-3g-Aqe"/>
                                                     <color key="contentTintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                 </imageView>
-                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Kt8-7z-csk">
+                                                <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Kt8-7z-csk">
                                                     <rect key="frame" x="290" y="3" width="151" height="16"/>
                                                     <textFieldCell key="cell" lineBreakMode="clipping" title="Monday 08 Mar 9:00AM" id="zAH-cs-dar">
                                                         <font key="font" metaFont="system"/>
@@ -587,7 +587,7 @@ between sections to configure Hidden Bar.</string>
                                             <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="arrow" id="2gg-m3-EHq"/>
                                             <color key="contentTintColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                         </imageView>
-                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eBG-Wk-IXv">
+                                        <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eBG-Wk-IXv">
                                             <rect key="frame" x="314" y="141" width="189" height="28"/>
                                             <textFieldCell key="cell" lineBreakMode="clipping" title="⭐️Always Hidden" id="1jU-1x-cFf">
                                                 <font key="font" metaFont="system" size="24"/>
@@ -613,7 +613,7 @@ between sections to configure Hidden Bar.</string>
                                 </view>
                                 <color key="fillColor" name="quaternaryLabelColor" catalog="System" colorSpace="catalog"/>
                             </box>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="aZz-jM-wCs">
+                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="aZz-jM-wCs">
                                 <rect key="frame" x="18" y="173" width="91" height="26"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="Settings" id="1Is-Ut-a9h">
                                     <font key="font" metaFont="systemBold" size="22"/>
@@ -699,13 +699,13 @@ between sections to configure Hidden Bar.</string>
                                                 <subviews>
                                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="gj1-Ms-4No">
                                                         <rect key="frame" x="-2" y="4" width="206" height="22"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="20" id="Pg4-Eh-1V3"/>
-                                                        </constraints>
                                                         <buttonCell key="cell" type="check" title="Automatically hide icon after: " bezelStyle="regularSquare" imagePosition="left" inset="2" id="kg8-rW-srh">
                                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                                             <font key="font" metaFont="system"/>
                                                         </buttonCell>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="20" id="Pg4-Eh-1V3"/>
+                                                        </constraints>
                                                         <connections>
                                                             <action selector="autoHideCheckChanged:" target="XfG-lQ-9wD" id="rDJ-0S-Fu3"/>
                                                         </connections>
@@ -714,7 +714,7 @@ between sections to configure Hidden Bar.</string>
                                                         <rect key="frame" x="203" y="1" width="123" height="25"/>
                                                         <popUpButtonCell key="cell" type="push" title="5 seconds" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="bzS-lm-JvT" id="SPt-Y3-pjj">
                                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                                            <font key="font" metaFont="menu"/>
+                                                            <font key="font" metaFont="message"/>
                                                             <menu key="menu" id="EWA-5U-Jd0">
                                                                 <items>
                                                                     <menuItem title="5 seconds" state="on" id="bzS-lm-JvT"/>
@@ -729,7 +729,7 @@ between sections to configure Hidden Bar.</string>
                                                             <action selector="timePopupDidSelected:" target="XfG-lQ-9wD" id="QZW-Kn-uet"/>
                                                         </connections>
                                                     </popUpButton>
-                                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Hg0-zx-srA">
+                                                    <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Hg0-zx-srA">
                                                         <rect key="frame" x="322" y="7" width="8" height="16"/>
                                                         <textFieldCell key="cell" lineBreakMode="clipping" title=" " id="ERh-JM-snt">
                                                             <font key="font" metaFont="system"/>
@@ -772,10 +772,10 @@ between sections to configure Hidden Bar.</string>
                                         </customSpacing>
                                     </stackView>
                                     <stackView distribution="fill" orientation="vertical" alignment="centerX" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NOW-ql-i4U">
-                                        <rect key="frame" x="363" y="58" width="273" height="75"/>
+                                        <rect key="frame" x="363" y="52" width="273" height="81"/>
                                         <subviews>
-                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="S0D-Ve-YKP">
-                                                <rect key="frame" x="83" y="58" width="108" height="17"/>
+                                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="S0D-Ve-YKP">
+                                                <rect key="frame" x="83" y="64" width="108" height="17"/>
                                                 <textFieldCell key="cell" lineBreakMode="clipping" title="Global Shortcut" id="HJP-Lf-rxm">
                                                     <font key="font" metaFont="systemMedium" size="14"/>
                                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -783,13 +783,13 @@ between sections to configure Hidden Bar.</string>
                                                 </textFieldCell>
                                             </textField>
                                             <box title="Box" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="mtL-vU-2iq">
-                                                <rect key="frame" x="41" y="-4" width="191" height="56"/>
+                                                <rect key="frame" x="41" y="0.0" width="191" height="56"/>
                                                 <view key="contentView" id="N9Y-29-pHK">
-                                                    <rect key="frame" x="3" y="3" width="185" height="50"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="191" height="56"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="yKf-P1-I45">
-                                                            <rect key="frame" x="1" y="1" width="147" height="46"/>
+                                                            <rect key="frame" x="1" y="1" width="153" height="52"/>
                                                             <buttonCell key="cell" type="push" title="Set Shortcut" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="fc2-jD-QNf">
                                                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                                 <font key="font" metaFont="system" size="15"/>
@@ -800,7 +800,7 @@ between sections to configure Hidden Bar.</string>
                                                             </connections>
                                                         </button>
                                                         <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="D4j-NZ-37N">
-                                                            <rect key="frame" x="136" y="8" width="48" height="32"/>
+                                                            <rect key="frame" x="142" y="11" width="48" height="32"/>
                                                             <buttonCell key="cell" type="push" title="⌫" bezelStyle="rounded" alignment="center" enabled="NO" borderStyle="border" inset="2" id="IId-1b-leb">
                                                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                                 <font key="font" metaFont="system"/>
